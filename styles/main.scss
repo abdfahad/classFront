@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import '../component/leftbar/leftbar';
+@import '../component/footer/footer';
+@import '../component/calculator/calculator';
+@import '../component/main/main';
+@import '//component/calendar/calendar';
+@import '../component/rightbar/rightbar';
+@import '../pages/signin/signin';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-body{
+  padding: 1rem 1rem;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #515255;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.container{
+
+  color: #515255;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.7fr 4fr 25%;
+  grid-template-rows: 1fr ;
+
+}
+// font-family: 'Gochi Hand', cursive;
+// font-family: 'Poppins', sans-serif;
+.rdrCalendarWrapper {
+  color: #000000;
+  font-size: 9px !important;
+}

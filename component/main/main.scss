@@ -1,0 +1,70 @@
+.main{
+    padding: 1rem 1rem;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    &--h1{
+        margin-top: -2.3rem;
+        font-family: 'rubik glitch', cursive;
+        font-size: 3rem;
+        font-weight: 500;
+        color: #515255; 
+        margin-bottom: 4rem;
+    }
+    &--h2{
+        font-size: 2rem;
+        font-weight: 500;
+        color: #515255;
+       
+        h2{
+            margin-bottom: 1.4rem;
+        }
+        button{
+            border: #515255 1px solid;
+            outline: none;
+            background: none;
+            padding: 0.5rem 1rem;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.4s ease-in-out;
+            &:hover{
+                background: #515255;
+            }
+            &:hover a{
+                color: #f5f5f5;
+            }
+
+            a{
+                font-size: 1.5rem;
+                transition: all 0.4s ease-in-out;
+                color: #515255;
+                text-decoration: none;
+                padding: 0.5rem 1rem;
+                margin-bottom: 0.8rem;
+            }
+            &::after{
+                content: '';
+                position: absolute;
+                top: -0.3rem;
+                left: 0;
+                height: 0.4rem;
+                width: 100%;
+                background: #96c93d;
+                transition: all 0.5s cubic-bezier(.47,.23,.72,.16);
+            }
+         
+        }
+        
+        &--2{
+            color: #f5f5f5;
+            background-color:  #515255;
+            padding: 0.5rem 1rem;
+        }
+    }
+    &--h3{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+}
+

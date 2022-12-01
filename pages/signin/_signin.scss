@@ -1,0 +1,118 @@
+.signin{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 0px;
+    background-color: white;
+
+    &--header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+        h1{
+            font-size: 2.5rem;
+            font-weight: 500;
+            color: #515255;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: #515255;
+        }
+    }
+
+
+    &--form{
+        font-size: 1.6rem;
+           background-color: #f6f8fa; 
+        //    background-color: #e0eaf4; 
+                padding: 1.5rem;
+                width: 30rem;
+                box-shadow: 0 0 0.5rem rgba(0,0,0,0.1);
+
+        &__email{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+            label{
+                margin-bottom: 1rem;
+            }
+            input{
+                padding: 1rem;
+                border: 1px solid #d1d5da;
+                border-radius: 0.25rem;
+                outline: none;
+                &:focus{
+                    border: 1px solid #0366d6;
+                }
+            }
+        }
+        &__password{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+            label{
+                margin-bottom: 1rem;
+            }
+            input{
+                padding: 1rem;
+                margin-bottom: 1rem;
+                border: 1px solid #d1d5da;
+                border-radius: 0.25rem;
+                outline: none;
+                &:focus{
+                    border: 1px solid #0366d6;
+                }
+            }
+        }
+
+    }
+
+&--button{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+        width: 100%;
+        padding: 1rem;
+        border: none;
+        border-radius: 0.25rem;
+        background-color: #0366d6;
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 500;
+        cursor: pointer;
+        &:hover{
+            background-color: #005cc5;
+        
+    }
+}
+}
+
+.signin--without{
+    display: flex;
+    flex-direction: column;
+    
+    button{
+        margin-top: 1rem;
+        padding: 1rem;
+        border: none;
+        border-radius: 0.25rem;
+        background-color: #515255;
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 500;
+        cursor: pointer;
+        &:hover{
+            background-color: #3a3d3f;
+
+        }
+    }
+}

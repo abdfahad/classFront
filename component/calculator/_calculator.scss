@@ -1,0 +1,50 @@
+.calc-grid{
+      margin: 20px auto;
+      width: 200px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    .ops{
+      display: flex;
+      button{
+        border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        background-color: #8c8c8c;
+        width: 20%;
+        height: 50px;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+      }
+      button:hover{
+       background-color: #525252;
+      }
+    
+    }
+    .dig{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+      .dig button{ 
+        background-color: #b9b9b9;
+       height:50px ;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+    border: 0.5px solid #b0b0b0;
+      }
+      .dig button:hover{
+    background-color: #c9c9c9;
+    
+      }
+    
+    }
+    .output{
+    height: 60px;
+    padding: 0 0.4rem;
+      text-align: right;
+      font-size: 30px;
+      display: flex;
+      opacity: 46.5%;
+    background-color: #c5c5c5;
+      flex-direction: column;
+    }
